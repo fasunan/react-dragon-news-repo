@@ -11,7 +11,7 @@ const Register = () => {
 
   const handleRegister = (e) => {
     e.preventDefault();
-    console.log(e.currentTarget);
+
     const form = new FormData(e.currentTarget);
     const name = form.get("name");
     const photo = form.get("photo");
